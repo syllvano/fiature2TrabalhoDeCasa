@@ -1,0 +1,16 @@
+# language : pt
+
+@tag
+Funcionalidade: Clicar em cadastrar na tela home
+  @tag1
+  
+  Cenario: Cadastro de cliente
+  
+   Dado que eu esteja assssando um site"https://www.grocerycrud.com/v1.x/demo/my_boss_is_in_a_hurry/bootstrap-v4"
+   Quando eu clicar em alterar versao
+   E clicar em cadastrar usuario
+   E preencher campos obrigatorios
+   Quando clicar em salvar
+   Entao cadastro seraefetoado com sucesso
+
+ 

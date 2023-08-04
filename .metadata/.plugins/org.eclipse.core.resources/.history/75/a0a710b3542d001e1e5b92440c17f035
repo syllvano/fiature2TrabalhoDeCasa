@@ -1,0 +1,31 @@
+package elementos;
+
+import org.openqa.selenium.By;
+
+public class elementos22 {
+	
+	private By btnmudarversao = By.xpath("//*[@id=\"gcrud-search-form\"]/div[1]/div[1]/a");
+    private By btnAddrecor = By.xpath("//*[@id=\"gcrud-search-form\"]/div[1]/div[1]/a");
+    private By btndegitarnome = By.xpath("");
+    private By btndegitarsobrenome = By.id("");
+	
+	public By getProdotospeaker() {
+		return btnmudarversao;
+	}
+	
+	
+	public By getBtnAddrecor() {
+		return btnAddrecor;
+	}
+	public By getBtndegitarnome() {
+		return btndegitarnome;
+	}
+	public By getBtndegitarsobrenome() {
+		return btndegitarsobrenome;
+	}
+}
+
+
+
+
+

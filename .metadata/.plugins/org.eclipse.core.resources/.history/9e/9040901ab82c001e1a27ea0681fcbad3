@@ -1,0 +1,41 @@
+package steps;
+
+import cucumber.api.PendingException;
+import cucumber.api.java.es.Dado;
+import cucumber.api.java.it.Quando;
+import cucumber.api.java.pt.Entao;
+
+public class meustepsfeature {
+
+@Dado("^que eu esteja assssando um site\"([^\"]*)\"$")
+public void que_eu_esteja_assssando_um_site(String arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Quando("^eu clicar em alterar versao$")
+public void eu_clicar_em_alterar_versao() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Quando("^clicar em cadastrar usuario$")
+public void clicar_em_cadastrar_usuario() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Quando("^preencher campos obrigatorios$")
+public void preencher_campos_obrigatorios() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Entao("^cadastro seraefetoado com sucesso$")
+public void cadastro_seraefetoado_com_sucesso() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+
+}

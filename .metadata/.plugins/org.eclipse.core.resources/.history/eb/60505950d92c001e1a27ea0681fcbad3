@@ -1,0 +1,42 @@
+package elementos;
+
+import org.openqa.selenium.By;
+
+public class elementos22 {
+	
+	private By btnMudarversao = By.xpath ("//*[@id=\"switch-version-select\"]");
+	private By btnAddRecord = By.xpath("");
+    private By btnAddrecor = By.xpath("");
+    private By btndegitarnome = By.xpath("field-customerName");
+    private By btndegitarsobrenome = By.id("field-contactLastName");
+	public By getProdotospeaker() {
+		return btnMudarversao;
+	}
+	public By getBtnmudarversao() {
+		return btnMudarversao;
+	}
+	public By getBtnAddrecor() {
+		return btnAddrecor;
+	}
+	public By getBtndegitarnome() {
+		return btndegitarnome;
+	}
+	public By getBtndegitarsobrenome() {
+		return btndegitarsobrenome;
+	}
+	public By getBtnAddRecord() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public Object getAddressLinel() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}
+
+
+
+
+
+
+

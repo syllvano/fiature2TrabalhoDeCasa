@@ -1,0 +1,16 @@
+# language : pt
+
+@tag
+Funcionalidade: Title of your feature
+  I want to use this template for my feature file
+
+  @tag1
+  Cenario: Title of your scenario
+    Dado I want to write a step with precondition
+    E some other precondition
+    Quando I complete action
+    E some other action
+    E yet another action
+    Entao I validate the outcomes
+    
+ 

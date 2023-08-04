@@ -1,0 +1,61 @@
+package elementos;
+
+import org.openqa.selenium.By;
+
+public class elementos22 {
+	
+	private By btnmudarversao = By.xpath("//*[@id=\"switch-version-select\"]");
+    private By btnAddrecord = By.xpath("//*[@id=\"gcrud-search-form\"]/div[1]/div[1]/a");
+    private By btndigitarnome = By.id("field-customerName");
+    private By btndigitarsobrenome = By.id("field-contactLastName");
+    private By btndigitarcustername = By.id("field-contactFirstName");
+	private By btndigitarphone = By.id("field-phone");
+	private By btndigitarandroeline1 = By.id("field-addressLine1");
+    public Object getbtnmudarversao() {
+		return btnmudarversao;
+	}
+	
+	public Object getbtnAddrecord() {
+		return btnAddrecord;
+	}
+	public By getBtndegitarnome() {
+		return btndigitarnome;
+	}
+	public By getBtndegitarsobrenome() {
+		return btndigitarsobrenome;
+	}
+
+	public By getBtndigitarcustername() {
+		return btndigitarcustername;
+	}
+
+	public By getBtndigitarsobrenome() {
+		return btndigitarsobrenome;
+	}
+
+	public By getBtndigitarnome() {
+		return btndigitarnome;
+	}
+
+	public By getBtndigitarphone() {
+		return btndigitarphone;
+	}
+
+	
+
+
+	
+	}
+
+
+	
+
+
+	
+	
+
+
+
+
+
+

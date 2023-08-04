@@ -1,0 +1,40 @@
+package elementos;
+
+import org.openqa.selenium.By;
+
+public class elementos22 {
+	
+	private By btnmudarversao = By.xpath("//*[@id=\"switch-version-select\"]");
+    private By btnAddrecord = By.xpath("//*[@id=\"gcrud-search-form\"]/div[1]/div[1]/a");
+    private By btndegitarnome = By.xpath("");
+    private By btndegitarsobrenome = By.id("");
+	
+    public Object getbtnmudarversao() {
+		return btnmudarversao;
+	}
+	
+	public Object getbtnAddrecord() {
+		return btnAddrecord;
+	}
+	public By getBtndegitarnome() {
+		return btndegitarnome;
+	}
+	public By getBtndegitarsobrenome() {
+		return btndegitarsobrenome;
+	}
+
+	
+	}
+
+
+	
+
+
+	
+	
+
+
+
+
+
+

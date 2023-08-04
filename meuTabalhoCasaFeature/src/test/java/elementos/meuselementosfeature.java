@@ -1,0 +1,35 @@
+package elementos;
+
+import org.openqa.selenium.By;
+
+public class meuselementosfeature {
+	
+	private By btnmudarversa = By.id ("https://www.grocerycrud.com/v1.x/demo/my_boss_is_in_a_hurry/bootstrap-v4");
+	private By btnmudarversao = By.id("https://www.grocerycrud.com/v1.x/demo/my_boss_is_in_a_hurry/bootstrap-v4");
+    private By btnAddrecor = By.xpath("");
+    private By btndegitarnome = By.xpath("");
+    private By btndegitarsobrenome = By.id("");
+	
+	public By getProdotospeaker() {
+		return btnmudarversa;
+	}
+	public By getBtnmudarversao() {
+		return btnmudarversao;
+	}
+	public By getBtnAddrecor() {
+		return btnAddrecor;
+	}
+	public By getBtndegitarnome() {
+		return btndegitarnome;
+	}
+	public By getBtndegitarsobrenome() {
+		return btndegitarsobrenome;
+	}
+}
+
+
+
+
+
+
+
